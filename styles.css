@@ -1,0 +1,67 @@
+body {
+  background-color: #f9f7fe;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.current-weather {
+  position: relative;
+  right: 105px;
+}
+.current-weather p strong {
+  color: #f75282;
+}
+
+.current-weather p {
+  line-height: 1.5em;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 40px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.current-temp {
+  position: relative;
+  bottom: 100px;
+  left: 300px;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.search-bar {
+  top: 60px;
+  left: 35px;
+  width: 400px;
+  height: 42px;
+  background-color: #f9f7fe;
+  border: none;
+  font-size: 16px;
+}
+
+.search-button {
+  height: 40px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 75px;
+}
+
+footer p {
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.7;
+}
